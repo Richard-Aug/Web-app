@@ -1,4 +1,4 @@
-
+import Link from 'next/link'
 export default function Home() {
   return (
 <>
@@ -10,14 +10,14 @@ export default function Home() {
         <div className="col-12">
           <nav className="main-nav">
       
-            <a href="index.html" className="logo">
+            <a href="/home" className="logo">
             </a>
           
             <ul className="nav">
-              <li><a href="index.html" className="active">Home</a></li>
+              <li><a href="/home" className="active">Home</a></li>
               <li><a href="category.html">Category</a></li>
               <li><a href="listing.html">Listing</a></li>
-              <li><a href="contact.html">Contact Us</a></li> 
+              <li><a href="/contact">Contact Us</a></li> 
               <li><div className="main-white-button"><a href="#"><i className="fa fa-plus"></i> Add Your Listing</a></div></li> 
             </ul>        
             <a className='menu-trigger'>
